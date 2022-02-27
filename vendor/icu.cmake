@@ -33,7 +33,7 @@ target_compile_definitions(
         _REENTRANT
 )
 
-target_compile_options(mbgl-vendor-icu PRIVATE -Wno-error -Wno-shorten-64-to-32)
+target_compile_options(mbgl-vendor-icu PRIVATE )
 
 target_include_directories(
     mbgl-vendor-icu SYSTEM
